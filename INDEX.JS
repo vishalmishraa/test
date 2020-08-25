@@ -6,7 +6,7 @@ var lock = false;
 cards.forEach(card => card.addEventListener("click", flip));
 
 function flip() {
-    if (lock) return;
+    if (lock) lreturn;
     if (this === firstCard) return;
     this.classList.add("flip");
     if (!isFlipped) {
