@@ -4,7 +4,7 @@ var firstCard, secondCard;
 var lock = false;
 
 cards.forEach(card => card.addEventListener("click", flip));
-
+//TEST 4 SHOWTCUTS
 function flip() {
     if (lock) return;
     if (this === firstCard) return;
